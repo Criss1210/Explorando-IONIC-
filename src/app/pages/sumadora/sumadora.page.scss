@@ -1,0 +1,84 @@
+:host {
+  --ion-background-color: #1e1e2d;
+  --ion-text-color: white;
+}
+
+ion-content {
+  --background: #1e1e2d;
+}
+
+.custom-toolbar {
+  --background: #007bff;
+  --color: white;
+  --border-color: transparent;
+}
+
+.sumadora-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.input-item {
+  width: 100%;
+  max-width: 350px;
+  background: #2a2a3b;
+  --border-color: #007bff;
+  --color: white;
+  --placeholder-color: #aaa;
+}
+
+ion-input {
+  color: white;
+}
+
+.sum-button {
+  margin-top: 15px;
+  --background: #007bff;
+  --color: white;
+  --border-radius: 10px;
+  --box-shadow: 0 4px 10px rgba(0, 123, 255, 0.5);
+}
+
+.result-card {
+  background: #2a2a3b;
+  color: white;
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+  width: 100%;
+  max-width: 320px;
+}
+
+ion-card-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+ion-card-content p {
+  font-size: 1.2rem;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
